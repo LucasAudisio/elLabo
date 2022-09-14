@@ -1,0 +1,3 @@
+public enum Provincia {
+    CORDOBA, BUENOS_AIRES, FORMOSA, NEUQUEN, SANTA_FE, SANTA_CRUZ;
+}
