@@ -71,7 +71,7 @@ public class Hospital implements OperacionesHospital{
         while(!arrayOrdenado) {
             arrayOrdenado = true;
             for (int i = 0; i < arrayMedicos.size() - 1; i++) {
-                if (compararPalabras(arrayMedicos.get(i).getEspecialidad(), arrayMedicos.get(i + 1).getEspecialidad()) > 0) {
+                if (compararPalabras(arrayMedicos.get(i).getEspecialidad(), arrayMedicos.get(i + 1).getEspecialidad()) < 0) {
                     medicoTemp = arrayMedicos.get(i);
                     arrayMedicos.set(i, arrayMedicos.get(i + 1));
                     arrayMedicos.set(i + 1, medicoTemp);
